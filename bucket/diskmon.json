@@ -1,0 +1,33 @@
+{
+    "version": "2.4.1",
+    "description": "Windows disk monitor: USN-journal attribution (who is writing), reversible quarantine cleanup, tray watchdog.",
+    "homepage": "https://github.com/pyc123720/diskmon",
+    "license": "MIT",
+    "notes": [
+        "First run: SmartScreen may warn because builds are self-signed; choose 'More info' -> 'Run anyway'.",
+        "The app starts in the system tray and serves its UI on http://127.0.0.1:8766/."
+    ],
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/pyc123720/diskmon/releases/download/v2.4.1/diskmon-go.exe#/diskmon.exe",
+            "hash": "9a8a5262171b30a1ffd5b92e646ea150189d78adbe38d3c24f0f4e0fd44c8961"
+        }
+    },
+    "bin": "diskmon.exe",
+    "shortcuts": [
+        [
+            "diskmon.exe",
+            "diskmon"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/pyc123720/diskmon"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/pyc123720/diskmon/releases/download/v$version/diskmon-go.exe#/diskmon.exe"
+            }
+        }
+    }
+}
