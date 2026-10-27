@@ -1,5 +1,5 @@
 {
-    "version": "2.5.2",
+    "version": "2.5.3",
     "description": "Windows disk monitor: USN-journal attribution (who is writing), reversible quarantine cleanup, tray watchdog.",
     "homepage": "https://github.com/pyc123720/diskmon",
     "license": "MIT",
@@ -9,8 +9,8 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://github.com/pyc123720/diskmon/releases/download/v2.5.2/diskmon-go.exe#/diskmon.exe",
-            "hash": "67c8c768cc70eb43bca1df6a7e72452a4f1e63d6968155563b2dfc03b92311fd"
+            "url": "https://github.com/pyc123720/diskmon/releases/download/v2.5.3/diskmon-go.exe#/diskmon.exe",
+            "hash": "485d423ac3432431857ce6dca0bb6af706c015ef4fa0668b567d42ff9969387a"
         }
     },
     "bin": "diskmon.exe",
